@@ -1,18 +1,3 @@
-// Multi Array
-let emptyMultiArray = [[], []];
-let matrix = [
-  [0, 1, 2, 3],
-  [1, 0, 1, 2],
-  [2, 1, 0, 1]
-];
-console.log("multi array", matrix);
-
-
-
-
-
-
-
 
 
 // 1 to 10 counting
@@ -25,10 +10,8 @@ for (let i = 1; i <= 10; i++) {
 
 
 
-// multiply table maker
-// Note: This will open two pop-up boxes in your browser for input
-let tableNumber = prompt("Enter a number for the multiplication table:");
-let tableLength = prompt("Enter the length of the table:");
+let tableNumber = prompt("Enter a number for the multiply table:");
+let tableLength = prompt("how many multiply ?");
 
 console.log("Multiplication table of " + tableNumber + " (Length " + tableLength + ")");
 for (let i = 1; i <= tableLength; i++) {
@@ -40,21 +23,12 @@ for (let i = 1; i <= tableLength; i++) {
 
 
 
-// arrays
-let fruits = ["apple", "banana", "mango", "orange", "strawberry"];
-console.log("Fruits printing arrays");
-for (let i = 0; i < fruits.length; i++) {
-  console.log(fruits[i]);
-}
 
 
 
 
 
 
-
-
-// counting series
 console.log(" Series counting")
 
 ;
@@ -110,3 +84,67 @@ for (let i = 2; i <= 20; i += 2) {
   seriesK += i + "k" + (i < 20 ? ", " : "");
 }
 console.log("Series k counting " + seriesK);
+
+
+
+
+
+let firstName = prompt("Enter your first name:");
+let lastName = prompt("Enter your last name:");
+let fullName = firstName + " " + lastName;
+console.log("Hello, " + fullName + "!");
+
+
+
+let phoneModel = prompt("Enter your favorite mobile phone model:");
+console.log("My favorite phone is: " + phoneModel);
+console.log("Length of string: " + phoneModel.length);
+
+
+
+let country = "Pakistani";
+console.log("String: " + country);
+console.log("Index of 'n': " + country.indexOf("n"));
+
+
+let greeting = "Hello World";
+console.log("String: " + greeting);
+console.log("Last index of 'l': " + greeting.lastIndexOf("l"));
+
+
+let word = "Pakistani";
+console.log("String: " + word);
+console.log("Character at index 3: " + word.charAt(3));
+
+
+
+
+
+// --- BATCH 2: ARRAYS AND LOOPS ---
+
+// 1. empty multidimensional array
+let emptyData = [[]];
+
+// 2. matrix array
+let matrixs = [
+  [0, 1, 2, 3],
+  [1, 0, 1, 2],
+  [2, 1, 0, 1]
+];
+console.log("Matrix:");
+console.log(matrixs);
+
+// 3. counting 1 to 10
+console.log("Counting:");
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+
+// 5. fruits array loop
+let fruitss = ["apple", "banana", "mango", "orange", "strawberry"];
+console.log("Fruit list:");
+for (let j = 0; j < fruitss.length; j++) {
+  console.log(fruitss[j]);
+}
+
+
